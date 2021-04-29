@@ -1,58 +1,54 @@
 {
-    "author":"",
-    "bugs":"",
-    "changelog":"",
-    "contributors":[],
-    "dependencies":{},
-    "description":"",
-    "devDependencies":{},
-    "documentation":"",
-    "homepage":"",
-    "ignore":[
-        "**/.*",
-        "/test/",
-        "/tests/"
+  "author": "Matthew Clemente <mjclemente@gmail.com>",
+  "location": "mjclemente/fbccfml#v1.0.0",
+  "version": "1.0.0",
+  "bugs": "https://github.com/mjclemente/fbccfml/issues",
+  "changelog": "",
+  "contributors": [],
+  "dependencies": {},
+  "description": "A CFML wrapper for the Facebook Conversions API.",
+  "devDependencies": {},
+  "documentation": "https://github.com/mjclemente/fbccfml/blob/main/README.md",
+  "homepage": "https://github.com/mjclemente/fbccfml",
+  "ignore": ["**/.*", "/test/", "/tests/"],
+  "installPaths": {},
+  "instructions": "",
+  "keywords": ["facebook", "conversions", "api"],
+  "license": [
+    {
+      "type": "MIT",
+      "URL": "https://github.com/mjclemente/fbccfml/blob/main/LICENSE"
+    }
+  ],
+  "name": "fbccfml",
+  "private": false,
+  "projectURL": "https://github.com/mjclemente/fbccfml",
+  "repository": {
+    "type": "git",
+    "URL": "https://github.com/mjclemente/fbccfml"
+  },
+  "scripts": {},
+  "shortDescription": "A CFML wrapper for the Facebook Conversions API.",
+  "slug": "fbccfml",
+  "testbox": {
+    "bundles": "",
+    "directory": "tests.specs",
+    "excludes": "",
+    "labels": "",
+    "options": {},
+    "recurse": true,
+    "reporter": "",
+    "runner": [
+      {
+        "default": ""
+      }
     ],
-    "installPaths":{},
-    "instructions":"",
-    "keywords":[],
-    "license":[
-        {
-            "type":"",
-            "URL":""
-        }
-    ],
-    "location":"ForgeboxStorage",
-    "name":"FBC CFML",
-    "private":false,
-    "projectURL":"",
-    "repository":{
-        "type":"",
-        "URL":""
-    },
-    "scripts":{},
-    "shortDescription":"A CFML wrapper for the Facebook Conversions API. Record Facebook Conversions using their Server-Side API",
-    "slug":"fbccfml",
-    "testbox":{
-        "bundles":"",
-        "directory":"tests.specs",
-        "excludes":"",
-        "labels":"",
-        "options":{},
-        "recurse":true,
-        "reporter":"",
-        "runner":[
-            {
-                "default":""
-            }
-        ],
-        "testBundles":"",
-        "testSpecs":"",
-        "testSuites":"",
-        "verbose":true,
-        "watchDelay":500,
-        "watchPaths":"**.cfc"
-    },
-    "type":"modules",
-    "version":"0.0.0"
+    "testBundles": "",
+    "testSpecs": "",
+    "testSuites": "",
+    "verbose": true,
+    "watchDelay": 500,
+    "watchPaths": "**.cfc"
+  },
+  "type": "modules"
 }
