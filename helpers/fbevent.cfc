@@ -638,7 +638,7 @@ component accessors="true" {
       return input;
     }
 
-    return hash(input.trim().lcase(), 'SHA-256');
+    return hash(lcase(trim(input)), 'SHA-256');
   }
 
   private string function getRemoteIp(){
