@@ -30,7 +30,7 @@ component accessors="true" {
     setData_processing_options([]);
     clientIpAddress( getRemoteIp() );
     clientUserAgent( cgi.HTTP_USER_AGENT );
-    fbc( cookie?._fbp ?: '' );
+    fbc( cookie?._fbc ?: '' );
     fbp( cookie?._fbp ?: '' );
 
     return this;
