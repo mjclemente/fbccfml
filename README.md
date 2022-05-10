@@ -32,7 +32,7 @@ event = new path.to.fbccfml.helpers.fbevent()
   .lastName('McSign')
   .value(100);
 
-res = facebookconversions.sendEvent( event );
+res = fbc.sendEvent( event );
 writeDump( var='#res#', abort='true' );
 ```
 
