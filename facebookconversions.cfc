@@ -5,7 +5,7 @@
 */
 component displayname="FBC CFML"  {
 
-    variables._fbccfml_version = '1.0.0';
+    variables._fbccfml_version = '1.0.1';
 
     public any function init(
         string pixelId = '',
