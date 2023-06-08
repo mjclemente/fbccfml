@@ -12,7 +12,7 @@ component displayname="FBC CFML"  {
         string accessToken = '',
         string testEventCode = '',
         string baseUrl = 'https://graph.facebook.com',
-        string apiVersion = 'v10.0',
+        string apiVersion = 'v16.0',
         boolean includeRaw = false,
         numeric httpTimeout = 50
     ) {
